@@ -1,0 +1,236 @@
+/* Removing browser styling. */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+/* Adding a background color to the web page. */
+body {
+    background-color: #d9dcd6;
+}
+
+/* Setting the size, background color, and text color of the website header. */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+/* Setting the h1 heading element of the website header to a proper display and font-size. */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
+/* Setting the color for the h1 header element of the website header. */
+.header h1 .seo {
+    color: #ffffff;
+}
+
+/* Setting the box styling and font of the navigation. */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+/* Setting the list properties of the navigation in the website header. */
+.header div ul {
+    list-style-type: none;
+}
+
+/* Setting the layout of the website header. */
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+/* Styling the navigation links. */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+/* Styling the hover element of the navigation. */
+p {
+    font-size: 16px;
+}
+
+/* Linking to the hero image and setting the box sizing. */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("./digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+/* Setting the float properties of the search-engine-optimization and social-media-marketing content image. */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+/* Setting the float properties of the online-reputation-management content image. */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
+/* Setting the box properties for the p element content. */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* Setting the box styling, font, and background color for the sidebar content. */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+}
+
+/* Setting the bottom margin and text color of the lead genereation sidebar content. */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the bottom margin and text color of the brand awarness sidebar content. */
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the bottom margin and text color of the cost management sidebar content. */
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+/* Setting the bottom margin and alignment of the heading for the lead genereation sidebar. */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Setting the bottom margin and alignment of the heading for the brand awareness sidebar. */
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Setting the bottom margin and alignment of the heading for the cost management sidebar. */
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+/* Setting the margin, display, and width of the lead genereation sidebar image. */
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting the margin, display, and width of the brand awareness sidebar image. */
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting the margin, display, and width of the cost management sidebar image. */
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+/* Setting the box styling, background color, font, and text color of the search-engine-optimization p element content. */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the box styling, background color, font, and text color of the online-reputation-management p element content. */
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the box styling, background color, font, and text color of the social-media-marketing p element content. */
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+/* Setting the height of the search-engine-optimization p element image. */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+/* Setting the height of the online-reputation-management p element image. */
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+/* Setting the height of the social-media-marketing p element image. */
+.social-media-marketing img {
+    max-height: 200px;
+}
+
+/* Setting the bottom margin and font size of the search-engine-optimization paragraph heading element. */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Setting the bottom margin and font size of the online-reputation-management paragraph heading element. */
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Setting the bottom margin and font size of the social-media-marketing paragraph heading element. */
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+/* Setting the floating elements, alignment, and font of the website footer. */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+/* Setting the font size of the website footer heading element. */
+.footer h2 {
+    font-size: 20px;
+}
