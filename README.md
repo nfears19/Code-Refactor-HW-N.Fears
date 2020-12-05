@@ -7,4 +7,4 @@ also following the Scout Rule, leaving the code a little cleaner than how it was
 
 Deployed Website Link: 
 
-<img src="01-html-css-git-homework-demo.png">
+<img src="Images\01-html-css-git-homework-demo.png">
